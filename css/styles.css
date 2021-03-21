@@ -47,6 +47,13 @@ Colors:
 /*     01. General Styles     */
 
 /******************************/
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;	margin-bottom: 0%;
+}
 
 body {
 	width: 100%;
