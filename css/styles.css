@@ -47,6 +47,9 @@ Colors:
 /*     01. General Styles     */
 
 /******************************/
+.footer{
+	position: fixed;
+}
 
 body, html {
 	width: 100%;
