@@ -47,13 +47,13 @@ Colors:
 /*     01. General Styles     */
 
 /******************************/
-.footer{
-	position: fixed;
-}
 
-body, html {
+body {
 	width: 100%;
 	height: 100%;
+	padding:0%;
+	background: url('../images/choice5m.jpg')  no-repeat center center fixed;
+	background-size: cover;
 }
 
 body, p {
@@ -728,72 +728,11 @@ input[type='checkbox'] {
 	}
 }
 
-.navbar-custom .dropdown-toggle:focus {
-	/* removes dropdown outline on focus  */
-	outline: 0;
-}
 
-.navbar-custom .dropdown-menu {
-	margin-top: 0;
-	border: none;
-	border-radius: 0.25rem;
-	background-color: #113448;
-}
 
-.navbar-custom .dropdown-item {
-	color: #fff;
-	text-decoration: none;
-}
 
-.navbar-custom .dropdown-item:hover {
-	background-color: #113448;
-}
 
-.navbar-custom .dropdown-item .item-text {
-	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
-}
 
-.navbar-custom .dropdown-item:hover .item-text {
-	color: #14bf98;
-}
-
-.navbar-custom .dropdown-items-divide-hr {
-	width: 100%;
-	height: 1px;
-	margin: 0.75rem auto 0.75rem auto;
-	border: none;
-	background-color: #b5bcc4;
-	opacity: 0.2;
-}
-
-/* end of dropdown menu */
-
-.navbar-custom .social-icons {
-	display: none;
-}
-
-.navbar-custom .navbar-toggler {
-	border: none;
-	color: #fff;
-	font-size: 2rem;
-}
-
-.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times {
-	display: none;
-}
-
-.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-bars {
-	display: inline-block;
-}
-
-.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars {
-	display: none;
-}
-
-.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times {
-	display: inline-block;
-	margin-right: 0.125rem;
-}
 
 /*********************/
 
@@ -802,8 +741,7 @@ input[type='checkbox'] {
 /*********************/
 
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/choice5m.jpg') center center no-repeat;
-	background-size: cover;
+	
 }
 
 .header .header-content {
@@ -1767,6 +1705,7 @@ input[type='checkbox'] {
 /*************************/
 
 .copyright {
+	
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;
 	background-color:rgb(149, 131, 137);
